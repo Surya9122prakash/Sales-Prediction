@@ -1,0 +1,58 @@
+2023-05-28 08:15:52 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2023-05-28 08:16:02 INFO [django.server:212] "GET / HTTP/1.1" 200 3496
+2023-05-28 08:16:02 WARNING [django.request:241] Not Found: /favicon.ico
+2023-05-28 08:16:02 WARNING [django.server:212] "GET /favicon.ico HTTP/1.1" 404 2345
+2023-05-28 09:19:10 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2023-05-28 09:19:29 INFO [django.server:212] "POST /predict HTTP/1.1" 200 333
+2023-05-28 09:20:07 INFO [django.utils.autoreload:266] C:\Users\surya\Desktop\ineuron\sales\app\views.py changed, reloading.
+2023-05-28 09:20:09 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2023-05-28 09:22:09 INFO [django.utils.autoreload:266] C:\Users\surya\Desktop\ineuron\sales\sales\settings.py changed, reloading.
+2023-05-28 09:22:11 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2023-05-28 10:01:51 INFO [django.utils.autoreload:266] C:\Users\surya\Desktop\ineuron\sales\sales\settings.py changed, reloading.
+2023-05-28 10:01:53 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2023-05-28 10:02:15 INFO [django.server:212] "GET / HTTP/1.1" 200 3496
+2023-05-28 10:02:57 INFO [app.views:21] Predict view called
+2023-05-28 10:02:57 INFO [app.views:23] POST request received
+2023-05-28 10:02:57 INFO [app.views:108] Prediction made: [4435.71909884]
+2023-05-28 10:02:57 INFO [django.server:212] "POST /predict HTTP/1.1" 200 333
+2023-05-28 20:29:43 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2023-05-28 20:30:02 INFO [django.server:212] "GET / HTTP/1.1" 200 3496
+2023-05-28 20:30:02 WARNING [django.request:241] Not Found: /favicon.ico
+2023-05-28 20:30:02 WARNING [django.server:212] "GET /favicon.ico HTTP/1.1" 404 2345
+2023-05-28 20:31:13 INFO [app.views:21] Predict view called
+2023-05-28 20:31:13 INFO [app.views:23] POST request received
+2023-05-28 20:31:13 INFO [app.views:108] Prediction made: [5825.96369347]
+2023-05-28 20:31:14 INFO [django.server:212] "POST /predict HTTP/1.1" 200 333
+2023-05-29 00:42:19 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2023-05-29 03:40:25 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2023-05-29 03:40:39 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2023-05-29 03:40:43 ERROR [django.security.DisallowedHost:124] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\surya\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\surya\AppData\Roaming\Python\Python310\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Users\surya\AppData\Roaming\Python\Python310\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\surya\AppData\Roaming\Python\Python310\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2023-05-29 03:40:44 WARNING [django.request:241] Bad Request: /
+2023-05-29 03:40:44 WARNING [django.server:212] "GET / HTTP/1.1" 400 68951
+2023-05-29 03:40:44 ERROR [django.security.DisallowedHost:124] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\surya\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\surya\AppData\Roaming\Python\Python310\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Users\surya\AppData\Roaming\Python\Python310\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\surya\AppData\Roaming\Python\Python310\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2023-05-29 03:40:44 WARNING [django.request:241] Bad Request: /favicon.ico
+2023-05-29 03:40:44 WARNING [django.server:212] "GET /favicon.ico HTTP/1.1" 400 68796
+2023-05-29 03:41:29 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2023-05-29 03:41:33 INFO [django.server:212] "GET / HTTP/1.1" 200 3496
+2023-05-29 03:41:33 WARNING [django.request:241] Not Found: /favicon.ico
+2023-05-29 03:41:33 WARNING [django.server:212] "GET /favicon.ico HTTP/1.1" 404 2345
